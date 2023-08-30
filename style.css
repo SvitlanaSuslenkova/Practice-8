@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* { box-sizing: border-box;}
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    background-color:hsl(240, 73%, 65%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p {
+    display: none;
+    color: hsl(240, 6%, 50%);  
+    font-weight: 400; 
+    font-size: 3.2vw;
+    width: 85%;
+    margin-left: 0;
+    margin-top: 0;
+}
+.arr {
+    transition: transform 0.8s;
+    width: 3vw;
+    height: 2vw;
+    margin-top: 4vw;
+    float: right;
+}
+
+button {
+    background-color: white; 
+    border: 0px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+.question::after, h2::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.girl {
+    display: block;
+    margin: -155px auto 0 auto;
+    
+}
+.girlmob {
+    position: relative;
+    display: block;
+    transform: translate(0, 175px);
+    margin-inline: auto;
+    z-index: 3;
+}
+.bgmob {
+    position: relative;
+    display: block;
+    z-index: 2;
+    transform: translate(0, 100px);
+    margin-inline: auto;
+}
+.girld, .box {display: none}
+main {
+    display: block;
+    position: relative;
+    background-color: white;
+    margin: 0px auto 85px auto;
+    border-radius: 1em;
+    padding: 100px 22px 48px 22px;
+    color: hsl(237, 12%, 33%);
+    width: 87.2%;
+    max-width: 650px;
+    box-shadow: 5px 20px 15px 5px hsl(237, 12%, 33%, 30%);
+}
+
+h1 {
+    color: hsl(238, 29%, 16%);
+    font-size: 34px;
+    text-align: center; 
+}
+
+h2 {
+    display: block;
+    float: left; 
+    font-weight: 400;
+    font-size: 3.5vw;
+    letter-spacing: -0.42px;
+}
+
+h2:link {}
+h2:visited{}
+h2:hover {color: hsl(14, 88%, 65%);}
+h2:active {}
+
+hr {border-top: 1px solid hsl(240, 5%, 91%);}
+
+@media screen and (min-width: 750px) {
+h2 {font-size: 16px;}
+
+p {font-size: 15px;}
+.arr {
+    width: 15px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+}
+@media screen and (min-width: 1080px) {
+
+.contain {
+    width: 1080px;
+    align-self: center;
+    z-index: 3; 
+    margin-inline: auto;
+    transform: translate(5%, -18%);
+   }
+
+main {
+    width: 920px;
+    max-width: 920px;
+    height: auto;
+    padding: 60px 90px 60px 470px;
+    margin: 0 auto 0 auto;
+    background-image: url("bg-pattern-desktop.svg");
+    background-position: -395px -200px;
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+
+.girl, .girlmob, .bgmob {display: none;}
+
+.girld, .box {display: block;}
+.girld { 
+    z-index: 2;
+    width: 465px;
+    height: auto;
+    margin-right: 600px;
+    position: relative;
+    top:570px;  
+}
+.box {
+    z-index: 3;
+    width: 150px;
+    height: auto;
+    position: relative;
+    top:370px;
+    left: 15px;
+}
+h1{text-align: left;}
+}
+
