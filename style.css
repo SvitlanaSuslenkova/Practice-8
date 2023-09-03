@@ -36,6 +36,10 @@ button {
     width: 100%;
     display: block;
 }
+button:link {}
+button:visited{}
+button:hover {color: hsl(14, 88%, 65%);}
+button:active {}
 
 .question::after, h2::after {
     content: "";
@@ -89,11 +93,6 @@ h2 {
     font-size: 3.5vw;
     letter-spacing: -0.42px;
 }
-
-h2:link {}
-h2:visited{}
-h2:hover {color: hsl(14, 88%, 65%);}
-h2:active {}
 
 hr {border-top: 1px solid hsl(240, 5%, 91%);}
 
