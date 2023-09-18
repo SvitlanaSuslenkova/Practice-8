@@ -125,7 +125,7 @@ p {font-size: 15px;}
     width: 360px;
     margin-top:0;
     float: left;
-    margin-left: -450px;
+   /* margin-left: -450px;*/
 }
 
 main {
@@ -136,9 +136,9 @@ main {
     width: 920px;
     max-width: 920px;
     height: auto;
-    padding: 60px 90px 60px 470px;
+    padding: 60px 90px 0px 0px;
     background-image: url("bg-pattern-desktop.svg");
-    background-position: -395px -200px;
+    background-position: -395px -180px;
     background-repeat: no-repeat;
     background-size: 85%;
     align-self: center;
@@ -152,9 +152,9 @@ main {
     z-index: 3;
     width: 465px;
     height: auto;
-   position: relative;
+    position: relative;
     top:-10px; 
-    left:-550px;
+    left:-80px;
 }
 
 .box {
@@ -162,8 +162,8 @@ main {
     width: 150px;
     height: auto;
     position: relative;
-    top:-215px;
-    left:-540px;
+    top:-210px;
+    left:-70px;
 }
 
 h1{text-align: left;}
