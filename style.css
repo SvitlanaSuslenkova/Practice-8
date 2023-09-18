@@ -111,8 +111,7 @@ p {font-size: 15px;}
 }
 @media screen and (min-width: 1080px) {
 
-    .attribution { font-size: 16px; text-align: left; position: fixed; bottom: 0; margin-left: -250px;}
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 16px; text-align: left; position: absolute; bottom: -50px; }
 
     body {
     display: grid;
