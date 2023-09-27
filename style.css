@@ -36,10 +36,10 @@ button {
     width: 100%;
     display: block;
 }
-button:link {}
-button:visited{}
+button:link,
+button:visited,
+button:active,
 button:hover {color: hsl(14, 88%, 65%);}
-button:active {}
 
 
 h2::after {
