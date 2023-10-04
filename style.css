@@ -38,9 +38,8 @@ button {
 }
 button:link,
 button:visited,
-button:active,
+button:active ,
 button:hover {color: hsl(14, 88%, 65%);}
-
 
 h2::after {
     content: "";
@@ -87,6 +86,8 @@ h1 {
     text-align: center; 
 }
 
+
+  
 h2 {
     display: block;
     float: left; 
@@ -125,7 +126,7 @@ p {font-size: 15px;}
     width: 360px;
     margin-top:0;
     float: left;
-    margin-bottom: 60px;
+   margin-bottom: 60px;
 }
 
 main {
@@ -164,7 +165,20 @@ main {
     position: relative;
     top:-210px;
     left:-70px;
+    cursor: pointer;
+
+    animation-name: boxanime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;   
+    animation-direction: alternate;
+
 }
+
+@keyframes boxanime {
+    from {top: -210px;}
+    to {top: -220px;}
+}
+
 
 h1{text-align: left;}
 }
